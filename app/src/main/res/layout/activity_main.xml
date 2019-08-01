@@ -5,70 +5,17 @@
               tools:context=".MainActivity"
               android:orientation="vertical">
 
-    <!--<Button-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:onClick="reveal"-->
-        <!--android:text="revealView"-->
-        <!--/>-->
-    <!--<Button-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:onClick="search"-->
-        <!--android:text="searchView"-->
-        <!--/>-->
-    <com.hechuangwu.paintdemo.paint.CustomView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:textColor="#f00"
-            android:background="@drawable/tag_bg"
-            android:text="我是aaaa" />
-        <TextView
-            android:background="@drawable/tag_bg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:textColor="#000"
-            android:text="我b" />
-        <TextView
-            android:background="@drawable/tag_bg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:textColor="#f0f"
-            android:text="我是文本cccc" />
-        <TextView
-            android:background="@drawable/tag_bg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:textColor="#f0f"
-            android:text="哈哈" />
-        <TextView
-            android:background="@drawable/tag_bg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:textColor="#f0f"
-            android:text="嘻嘻嘻嘻嘻嘻" />
-        <TextView
-            android:background="@drawable/tag_bg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:textColor="#ff0"
-            android:text="我是文本ddddddddddd" />
-    </com.hechuangwu.paintdemo.paint.CustomView>
+        android:onClick="reveal"
+        android:text="revealView"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="search"
+        android:text="searchView"
+        />
+
 </LinearLayout>
