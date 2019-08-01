@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.hechuangwu.paintdemo.paint.WaveView;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
         //                setContentView( new ZoomImageView( this ) );//放大镜效果
 //        setContentView( new PathMeasureView( this ) );//pathMeasure的使用
 
-                WaveView waveView = new WaveView( this );//水波上涨效果
-                setContentView(  waveView );
-                waveView.startBoard();
+//                WaveView waveView = new WaveView( this );//水波上涨效果
+//                setContentView(  waveView );
+//                waveView.startBoard();
 
 
 
-//        setContentView( R.layout.activity_main );
+        setContentView( R.layout.activity_main );
     }
 
     public void reveal(View view) {
